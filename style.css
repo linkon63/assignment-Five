@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.input-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 300px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#searchBtn {
+    background-color: #555555;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 18px;
+}
+
+#errorMsg{
+  display: none;
+}
+
+
+#showingFoodArea{
+  width: 100%;
+  text-align: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 55px;
+}
+
+.foods{
+  /* border: 1px solid greenyellow;
+  border-radius: 10px; */
+  background: rgb(243, 242, 240);
+  border-radius: 35px;
+  color: rgb(0, 0, 0);
+}
+.food-image{
+  width: 280px;
+  border-radius: 80px;
+  padding-top: 20px;
+}
+#IngredientSection{
+  text-align: left;
+}
+#IngredientSection img{
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+}
+.addedIngredientChild img{
+  width: 300px;
+}
